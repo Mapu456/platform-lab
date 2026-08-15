@@ -1,0 +1,21 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+
+# Go
+job-worker/job-worker
+job-worker/*.test
+
+# Certs — never commit private keys
+certs/*.key
+certs/*.p12
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.DS_Store
